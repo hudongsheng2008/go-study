@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -28,4 +29,12 @@ func main()  {
 		})
 	})
 	r.Run(":9090")
+}
+
+func add()  {
+	fmt.Println("ccc")
+}
+
+func sub()  {
+	
 }
